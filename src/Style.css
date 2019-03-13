@@ -1,0 +1,16 @@
+.bg-grey {
+    background: rgb(34, 34, 34);
+}
+
+.f-white {
+    color: #ffffff;
+}
+
+.f-light-grey {
+    color: rgb(157, 157, 157);
+}
+
+
+.pas {
+    max-width: 150px;
+}

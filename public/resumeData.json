@@ -1,0 +1,140 @@
+{
+    "main": {
+      "name":"Muhammad Fachry Nataprawira",
+      "occupation":"Software & Security Engineer ",
+      "description":"I'm a Computer Science Student, I'm excited about Cyber Security Engineering and Software Engineering, I love playing Capture the Flag and reading novel!",
+      "image":"profilepic.jpg",
+      "bio":"Security Enthusiast, eager to learn and curious person",
+      "contactmessage":"Reach Me At",
+      "email": "nataprawiraf@gmail.com",
+      "phone": "(+62) 8170291509",
+      "address":{
+        "street":"Kelapa Dua",
+        "city":"Depok",
+        "state":"Indonesia",
+        "zip": "16451"
+      },
+      "website": "http://www.nataprawiraf.me",
+      "resumedownload": "http://www.nataprawiraf.me/cv",
+      "social":[
+        {
+          "name":"linkedin",
+          "url":"https://www.linkedin.com/in/nataprawiraf/",
+          "className":"fa fa-linkedin"
+        },
+        {
+          "name":"instagram",
+          "url":"http://instagram.com/nataprawiraf",
+          "className":"fa fa-instagram"
+        },
+        {
+          "name":"github",
+          "url":"http://github.com/ciferivalle",
+          "className":"fa fa-github"
+        }
+      ]
+    },
+    "resume":{
+      "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+      "education":[
+        {
+          "school":"University of Indonesia",
+          "degree":"Bachelor Degree",
+          "graduated":"July, 2021",
+          "description":"Majoring Computer Science, (will) take Computer Infrastructure path"
+        }
+      ],
+      "work":[
+        {
+          "company":"AdaTeman",
+          "title":"Head of Backend Engineer",
+          "years":"July 2018 - Jan 2019",
+          "stacks":"Python, Django, Docker, Django REST Framework",
+          "description":"Create a Borrow and Lend Transaction API, using Django REST Framework. Setting deployment using Docker, and Dokku on VPS. Managing API's image. Maintain the codes and deploy them to VPS using Dokku and Docker."
+        },
+        {
+          "company":"Kapital Boost",
+          "title":"Software Engineer Intern",
+          "years":"Jul 2018 - Aug 2018",
+          "stacks":"PHP, MySQL",
+          "description":"Create new features for members to withdraw their balances, using PHP and MySQL."
+        }
+      ],
+      "skills":[
+        {
+          "name":"Web Security",
+          "level":"70%"
+        },
+        {
+          "name":"Git",
+          "level":"80%"
+        },
+        {
+          "name":"ReactJs",
+          "level":"50%"
+        },
+        {
+          "name":"MongoDB",
+          "level":"60%"
+        },
+        {
+          "name":"Docker",
+          "level":"60%"
+        },
+        {
+          "name":"Web Framework",
+          "level":"80%"
+        }
+      ]
+    },
+    "portfolio":{
+      "projects": [
+        {
+          "title":"SMAN 3 Jakarta",
+          "category":"High School Website, Project from Bismit (Back-End)",
+          "stacks": "PHP&Laravel, MySQL",
+          "image":"canadian-wanderlust.jpg",
+          "url":"https://www.sman3jkt.sch.id"
+        },
+        {
+          "title":"HMIK Fisip Universitas Indonesia",
+          "category":"School Organization Website, Project from Bismit (Back-End)",
+          "stacks": "PHP&Laravel, MySQL",
+          "image":"fury-fighting-gear.jpg",
+          "url":"http://www.hmikfisip.com"
+        },
+        {
+          "title":"Vendoor",
+          "category":"Profit Organization Website, Project from Bismit (Back-End)",
+          "stacks": "PHP%Laravel, MySQL",
+          "image":"fury-fighting-gear.jpg",
+          "url":"http://www.hmikfisip.com"
+        },
+        {
+          "title":"CarBeOn API",
+          "category":"Profit Organization Website, Project from Bismit (Back-End)",
+          "stacks": "NodeJs, ExpressJs, ReactJS",
+          "image":"fury-fighting-gear.jpg",
+          "url":"http://www.hmikfisip.com"
+        },
+        {
+          "title":"Resume Website",
+          "category":"A React based resume website template (this website)",
+          "image":"resume-website.jpg",
+          "url":"http://www.timbakerdev.com"
+        }
+      ]
+    },
+    "testimonials":{
+      "testimonials":[
+        {
+          "text":"Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+          "user":"Kareem Abdul Jabbar"
+        },
+        {
+          "text":"That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+          "user":"Steve Wozniak... impersonator"
+        }
+      ]
+    }
+  }
