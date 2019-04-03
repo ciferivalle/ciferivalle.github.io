@@ -1,8 +1,31 @@
 import React, { Component } from 'react';
 
 import '../Style.css'
+import '../js/About.js'
 
 class About extends Component {
+
+   constructor(props) {
+      super(props);
+      this.state = {
+         imgSrc: '/img/me.png'
+      };
+      this.handleMouseOver = this.handleMouseOver.bind(this);
+      this.handleMouseOut = this.handleMouseOut.bind(this);
+    }
+
+   handleMouseOver() {
+      this.setState({
+        imgSrc: '/img/me-moshed.gif'
+      });
+    }
+  
+    handleMouseOut() {
+      this.setState({
+        imgSrc: '/img/me.png'
+      });
+    }
+
     render() {
 
         if(this.props.data) {
@@ -24,10 +47,10 @@ class About extends Component {
                   <div className="row f-h">
                      <div className="col-md-12 my-auto">
                         <div className="col-md-12">
-                           <img src="/img/me-round.png" className="img-responsive pas" alt=""/>
+                           <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="mypic" className="profile-img img-responsive pas moshed"/>
                         </div>
                         <div className="col-md-12 f-light-grey">
-                           <h1 className="fjalla my-3 white">ABOUT ME</h1>
+                           <h1 className="futura my-3 white">ABOUT ME</h1>
                            <p className="helvetica dark-white">{bio}</p>
                         </div>
                      </div>
