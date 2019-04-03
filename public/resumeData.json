@@ -91,35 +91,36 @@
       "projects": [
         {
           "title":"SMAN 3 Jakarta",
-          "category":"High School Website, Project from Bismit (Back-End)",
-          "stacks": "PHP&Laravel, MySQL",
+          "category":"Creating CRUD for SMAN3JKT's websites, including article, event, and gallery system",
+          "stacks": "PHP & Laravel, MySQL",
           "image":"mockup/sman3jkt.png",
           "url":"https://www.sman3jkt.sch.id"
         },
         {
           "title":"HMIK Fisip Universitas Indonesia",
-          "category":"School Organization Website, Project from Bismit (Back-End)",
+          "category":"Creating CRUD for HMIK FISIP websites, including article, pojok literatur, and gallery system",
           "stacks": "PHP&Laravel, MySQL",
           "image":"mockup/hmik.png",
           "url":"http://www.hmikfisip.com"
         },
         {
           "title":"Vendoor",
-          "category":"Profit Organization Website, Project from Bismit (Back-End)",
-          "stacks": "PHP%Laravel, MySQL",
+          "category":"Build Back-End system, including migration, dabatase, filtering, searching, and CRUD",
+          "stacks": "PHP&Laravel, MySQL",
           "image":"mockup/vendoor.png",
           "url":"http://www.hmikfisip.com"
         },
         {
           "title":"CarBeOn API",
-          "category":"Profit Organization Website, Project from Bismit (Back-End)",
+          "category":"Revamp Back-End System, filtering, sorting, databases, model, and migrations",
           "stacks": "NodeJs, ExpressJs, ReactJS",
           "image":"mockup/carbeon.png",
           "url":"http://www.hmikfisip.com"
         },
         {
-          "title":"Open House Fasilkom UI 2018 Website",
-          "category":"A React based resume website template (this website)",
+          "title":"Open House Fasilkom UI 2018",
+          "category":"Create Front-End website Open House Fasilkom 2018",
+          "stacks": "Foundation",
           "image":"mockup/ohfasilkom.png",
           "url":"http://www.ohfasilkom.com"
         }

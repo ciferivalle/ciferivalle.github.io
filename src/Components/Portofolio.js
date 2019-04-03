@@ -6,18 +6,16 @@ class Portfolio extends Component {
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
         var projectImage = 'img/'+projects.image;
-        return <div key={projects.title} className="columns portfolio-item">
+        return <div key={projects.title} className="col-md-4">
            <div className="item-wrap">
-            <a href={projects.url} title={projects.title}>
-               <img alt={projects.title} src={projectImage} className="img-responsive project-img" />
+               <img alt={projects.title} src={projectImage} className="img-responsive project-img my-3" />
                <div className="overlay">
-                  <div className="portfolio-item-meta">
-                 <h5>{projects.title}</h5>
-                     <p>{projects.category}</p>
+                  <div className="portfolio-item-meta futura">
+                        <h5>{projects.title}</h5>
+                        <p className="avenir">{projects.category}</p>
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
-            </a>
           </div>
         </div>
       })
@@ -28,14 +26,19 @@ class Portfolio extends Component {
 
       <div className="row">
 
-         <div className="col-md-12">
-
-            <h1>Check Out Some of My Works.</h1>
-
-            <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-                {projects}
-            </div>
+         <div className="col-md-12 text-center my-5">
+            <h1 className="">Check Out Some of My Works.</h1>
           </div>
+
+        <div className="container">
+            <div className="col-md-12">
+                <div id="portfolio-wrapper" className="row">
+                        {projects}
+                </div>
+            </div>
+        </div>
+
+
       </div>
    </section>
     );
