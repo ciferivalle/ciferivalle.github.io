@@ -19,13 +19,13 @@ class About extends Component {
 
    handleMouseOver() {
       this.setState({
-        imgSrc: process.env.PUBLIC_UR+ '/img/me-moshed.gif'
+        imgSrc: process.env.PUBLIC_URL+ '/img/me-moshed.gif'
       });
     }
   
     handleMouseOut() {
       this.setState({
-        imgSrc: process.env.PUBLIC_UR +'/img/me.png'
+        imgSrc: process.env.PUBLIC_URL +'/img/me.png'
       });
     }
 
