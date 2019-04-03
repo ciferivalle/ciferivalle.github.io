@@ -50,6 +50,7 @@
           "title":"Head of Backend Engineer",
           "years":"July 2018 - Jan 2019",
           "stacks":"Python, Django, Docker, Django REST Framework",
+          "stackLogo": ["python", "django", "docker", "posgres"],
           "description":"Create a Borrow and Lend Transaction API, using Django REST Framework. Setting deployment using Docker, and Dokku on VPS. Managing API's image. Maintain the codes and deploy them to VPS using Dokku and Docker."
         },
         {
@@ -57,6 +58,7 @@
           "title":"Software Engineer Intern",
           "years":"Jul 2018 - Aug 2018",
           "stacks":"PHP, MySQL",
+          "stackLogo": ["php", "mysql"],
           "description":"Create new features for members to withdraw their balances, using PHP and MySQL."
         }
       ],
@@ -111,6 +113,7 @@
           "title":"SMAN 3 Jakarta",
           "category":"Creating CRUD for SMAN3JKT's websites, including article, event, and gallery system",
           "stacks": "PHP & Laravel, MySQL",
+          "stackLogo": ["foundation", "laravel", "mysql"],
           "image":"mockup/sman3jkt.png",
           "url":"https://www.sman3jkt.sch.id"
         },
@@ -118,6 +121,7 @@
           "title":"HMIK Fisip Universitas Indonesia",
           "category":"Creating CRUD for HMIK FISIP websites, including article, pojok literatur, and gallery system",
           "stacks": "PHP&Laravel, MySQL",
+          "stackLogo": ["foundation", "laravel", "mysql"],
           "image":"mockup/hmik.png",
           "url":"http://www.hmikfisip.com"
         },
@@ -125,6 +129,7 @@
           "title":"Vendoor",
           "category":"Build Back-End system, including migration, dabatase, filtering, searching, and CRUD",
           "stacks": "PHP&Laravel, MySQL",
+          "stackLogo": ["foundation", "laravel", "mysql"],
           "image":"mockup/vendoor.png",
           "url":"http://www.hmikfisip.com"
         },
@@ -132,6 +137,7 @@
           "title":"CarBeOn API",
           "category":"Revamp Back-End System, filtering, sorting, databases, model, and migrations",
           "stacks": "NodeJs, ExpressJs, ReactJS",
+          "stackLogo": ["nodejs", "posgres"],
           "image":"mockup/carbeon.png",
           "url":"http://www.hmikfisip.com"
         },
@@ -139,6 +145,7 @@
           "title":"Open House Fasilkom UI 2018",
           "category":"Create Front-End website Open House Fasilkom 2018",
           "stacks": "Foundation",
+          "stackLogo": ["foundation"],
           "image":"mockup/ohfasilkom.png",
           "url":"http://www.ohfasilkom.com"
         }
