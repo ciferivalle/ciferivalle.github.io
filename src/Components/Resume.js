@@ -15,11 +15,15 @@ class Resume extends Component {
         )
       })
       var work = this.props.data.work.map(function(work){
+         var stackLogo = work.stackLogo.map(function(logo) {
+            return (<img className="brand px-2" src={process.env.PUBLIC_URL + "/img/logo/" + logo +".svg"} alt={logo}></img>)
+          })
         return (
-            <div key={work.company}>
+            <div key={work.company} className="my-4">
                <h3 className="avenir">{work.company}</h3>
                <p className="futura lime">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
                <p className="dark-white">{work.description}</p>
+               {stackLogo}
             </div>
          )
       })
