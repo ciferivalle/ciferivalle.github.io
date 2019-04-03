@@ -20,9 +20,8 @@ class Portfolio extends Component {
         </div>
       })
     }
-
     return (
-      <section id="portfolio" className="">
+      <section id="portfolio" className="my-5">
 
       <div className="row">
 

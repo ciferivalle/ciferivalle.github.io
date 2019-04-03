@@ -66,7 +66,7 @@ class About extends Component {
                               Hi! I'm Nata!
                               Information Security Enthusiast and Software Engineer!
                            </h1>
-                           <p className="futura gray">Click me to see more!</p>
+                           {/* <p className="futura gray">Click me to see more!</p> */}
                            {/* <p className="helvetica dark-white">{bio}</p> */}
                         </div>
                      </div>
