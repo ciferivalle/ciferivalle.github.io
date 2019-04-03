@@ -4,7 +4,7 @@
       "occupation":"Software & Security Engineer ",
       "description":"I'm a Computer Science Student, I'm excited about Cyber Security Engineering and Software Engineering, I love playing Capture the Flag and reading novel!",
       "image":"profilepic.jpg",
-      "bio":"Security Enthusiast, eager to learn and curious person",
+      "bio":"I am a Computer Science student. I love learning new things and I am deeply interested in technology, especially Information Security. I love playing CTFs and dream of being a good white hat hacker",
       "contactmessage":"Reach Me At",
       "email": "nataprawiraf@gmail.com",
       "phone": "(+62) 8170291509",
@@ -35,7 +35,7 @@
       ]
     },
     "resume":{
-      "skillmessage":"Here you can create a short write-up of your skills to show off to employers",
+      "skillmessage":"",
       "education":[
         {
           "school":"University of Indonesia",

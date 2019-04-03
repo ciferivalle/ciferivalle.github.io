@@ -14,3 +14,63 @@
 .pas {
     max-width: 150px;
 }
+
+.brand {
+    max-height: 30px;
+}
+
+.f-h {
+    min-height: 90vh;
+}
+
+.karla {
+    font-family: 'Karla', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.source {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fjalla {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.helvetica {
+    font-family:'Helvetica';
+}
+
+.brandon {
+    font-family:'Brandon';
+}
+
+.white {
+    color: #ffffff;
+}
+
+.dark-white{
+    color: gray;
+}
+
+.link {
+    color: #74FAA3;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: #74FAA3;
+    font-weight: bold;
+    text-shadow: -4px 1px 0px #E35A7E, 4px -1px 0px #EF817C;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}

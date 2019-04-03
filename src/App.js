@@ -3,6 +3,9 @@ import logo from './logo.png';
 import './App.css';
 import $ from 'jquery';
 import About from './Components/About';
+import Header from './Components/Header';
+import Footer from './Components/Footer';
+import Resume from './Components/Resume';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends Component {
@@ -39,8 +42,10 @@ class App extends Component {
 
     return (
       <div className="App">
+        <Header /> 
         <About data={this.state.resumeData.main}/>
-        <img src={logo} className="App-logo" alt="logo" />
+        <Resume data={this.state.resumeData.resume}/>
+        <Footer />
       </div>
     );
   }

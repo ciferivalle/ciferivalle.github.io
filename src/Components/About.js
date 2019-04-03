@@ -19,17 +19,17 @@ class About extends Component {
         }
        
         return (
-            <section id="about" className="bg-grey py-5">
+            <section id="about" className="bg-grey">
                <div className="container">
-                  <div className="row h-100">
-                  <div className="col-md-12">
-                  <h1 className="f-white">About Me</h1>
-                  </div>
-                     <div className="col-md-4">
-                        <img src="/img/me.jpg" className="img-responsive pas" alt=""/>
-                     </div>
-                     <div className="col-md-8 f-light-grey text-left">
-                        <p>{bio}</p>
+                  <div className="row f-h">
+                     <div className="col-md-12 my-auto">
+                        <div className="col-md-12">
+                           <img src="/img/me-round.png" className="img-responsive pas" alt=""/>
+                        </div>
+                        <div className="col-md-12 f-light-grey">
+                           <h1 className="fjalla my-3 white">ABOUT ME</h1>
+                           <p className="helvetica dark-white">{bio}</p>
+                        </div>
                      </div>
                   </div>
                </div>
