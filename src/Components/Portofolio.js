@@ -5,7 +5,10 @@ class Portfolio extends Component {
 
     if(this.props.data){
       var projects = this.props.data.projects.map(function(projects){
-        var projectImage = 'img/'+projects.image;
+        var stackLogo = projects.stackLogo.map(function(logo) {
+          return (<img className="brand px-2" src={process.env.PUBLIC_URL + "/img/logo/" + logo +".svg"} alt={logo}></img>)
+        })
+        var projectImage = process.env.PUBLIC_URL + "/img/" + projects.image;
         return <div key={projects.title} className="col-lg-4 col-md-6 col-sm-12">
            <div className="item-wrap">
                <img alt={projects.title} src={projectImage} className="img-responsive project-img my-3" />
@@ -13,6 +16,7 @@ class Portfolio extends Component {
                   <div className="portfolio-item-meta futura">
                         <h5 className="futura u2 ">{projects.title}</h5>
                         <p className="karla dark-white">{projects.category}</p>
+                        {stackLogo}
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
