@@ -51,6 +51,14 @@
     font-family:'Brandon';
 }
 
+.avenir {
+    font-family:'Avenir';
+}
+
+.futura {
+    font-family:'Futura';
+}
+
 .white {
     color: #ffffff;
 }
@@ -73,4 +81,14 @@
 
 ul {
     list-style: none;
+}
+
+.u {
+    text-decoration: underline;
+    text-decoration-color: #EF817C; 
+    text-decoration-style: wavy;
+}
+
+.project-img {
+    max-width: 300px;
 }

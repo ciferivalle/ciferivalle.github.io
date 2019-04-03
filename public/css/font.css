@@ -11,3 +11,17 @@
     font-weight: normal;
     font-style: normal;
 }
+
+@font-face {
+    font-family: 'Futura';
+    src: url('../fonts/Futura.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/Avenir.otf');
+    font-weight: normal;
+    font-style: normal;
+}

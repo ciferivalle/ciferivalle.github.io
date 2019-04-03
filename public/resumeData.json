@@ -93,35 +93,35 @@
           "title":"SMAN 3 Jakarta",
           "category":"High School Website, Project from Bismit (Back-End)",
           "stacks": "PHP&Laravel, MySQL",
-          "image":"canadian-wanderlust.jpg",
+          "image":"mockup/sman3jkt.png",
           "url":"https://www.sman3jkt.sch.id"
         },
         {
           "title":"HMIK Fisip Universitas Indonesia",
           "category":"School Organization Website, Project from Bismit (Back-End)",
           "stacks": "PHP&Laravel, MySQL",
-          "image":"fury-fighting-gear.jpg",
+          "image":"mockup/hmik.png",
           "url":"http://www.hmikfisip.com"
         },
         {
           "title":"Vendoor",
           "category":"Profit Organization Website, Project from Bismit (Back-End)",
           "stacks": "PHP%Laravel, MySQL",
-          "image":"fury-fighting-gear.jpg",
+          "image":"mockup/vendoor.png",
           "url":"http://www.hmikfisip.com"
         },
         {
           "title":"CarBeOn API",
           "category":"Profit Organization Website, Project from Bismit (Back-End)",
           "stacks": "NodeJs, ExpressJs, ReactJS",
-          "image":"fury-fighting-gear.jpg",
+          "image":"mockup/carbeon.png",
           "url":"http://www.hmikfisip.com"
         },
         {
-          "title":"Resume Website",
+          "title":"Open House Fasilkom UI 2018 Website",
           "category":"A React based resume website template (this website)",
-          "image":"resume-website.jpg",
-          "url":"http://www.timbakerdev.com"
+          "image":"mockup/ohfasilkom.png",
+          "url":"http://www.ohfasilkom.com"
         }
       ]
     },
