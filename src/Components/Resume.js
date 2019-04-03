@@ -45,6 +45,8 @@ class Resume extends Component {
             </div>
          </div>
 
+         <hr className="style-eight"/>
+
          <div className="row work my-5">
 
             <div className="col-md-3">
@@ -56,24 +58,23 @@ class Resume extends Component {
             </div>
          </div>
 
-         <div className="row skill my-5">
+         <hr className="style-eight"/>
 
+         <div className="row skill my-5">
             <div className="col-md-3">
                <h2 className="futura u"><span>SKILLS</span></h2>
             </div>
 
             <div className="col-md-9">
-
-               <p>{skillmessage}
-               </p>
-
+               <p>{skillmessage}</p> 
                <div className="bars">
                   <ul className="skills">
-                  {skills}
+                     {skills}
                   </ul>
                </div>
             </div>
          </div>
+
       </div>
    </section>
     );

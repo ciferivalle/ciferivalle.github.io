@@ -11,8 +11,8 @@ class Portfolio extends Component {
                <img alt={projects.title} src={projectImage} className="img-responsive project-img my-3" />
                <div className="overlay">
                   <div className="portfolio-item-meta futura">
-                        <h5>{projects.title}</h5>
-                        <p className="avenir">{projects.category}</p>
+                        <h5 className="futura u2 ">{projects.title}</h5>
+                        <p className="karla dark-white">{projects.category}</p>
                   </div>
                 </div>
               <div className="link-icon"><i className="fa fa-link"></i></div>
@@ -22,7 +22,7 @@ class Portfolio extends Component {
     }
 
     return (
-      <section id="portfolio">
+      <section id="portfolio" className="bg-grey white">
 
       <div className="row">
 
