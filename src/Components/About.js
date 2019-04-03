@@ -9,8 +9,8 @@ class About extends Component {
    constructor(props) {
       super(props);
       this.state = {
-         imgSrc: '/img/me.png',
-         aboutBg: '/img/me-bg.png'
+         imgSrc: process.env.PUBLIC_UR + '/img/me.png',
+         aboutBg: process.env.PUBLIC_UR + '/img/me-bg.png'
       };
       this.handleMouseOver = this.handleMouseOver.bind(this);
       this.handleMouseOut = this.handleMouseOut.bind(this);
@@ -19,13 +19,13 @@ class About extends Component {
 
    handleMouseOver() {
       this.setState({
-        imgSrc: '/img/me-moshed.gif'
+        imgSrc: process.env.PUBLIC_UR+ '/img/me-moshed.gif'
       });
     }
   
     handleMouseOut() {
       this.setState({
-        imgSrc: '/img/me.png'
+        imgSrc: process.env.PUBLIC_UR + '/img/me.png'
       });
     }
 
