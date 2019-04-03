@@ -60,6 +60,20 @@
           "description":"Create new features for members to withdraw their balances, using PHP and MySQL."
         }
       ],
+      "awards": [
+        {
+          "name": "3rd Winner Capture The Flag Competition Ristek Festival",
+          "date": "October, 2018",
+          "organizer": "Ristek Fakultas Ilmu Komputer, Universitas Indonesia",
+          "desc": "3rd Winner of Capture The Flag (Hacking and Information Security Competition). Held by Ristek Fakultas Ilmu Komputer, Universitas Indonesia"
+        },
+        {
+          "name": "2rd Robotic Competition Physics Expo",
+          "date": "November, 2016",
+          "organizer": "Himpunan Mahasiswa Fisika, Institut Pertanian Bogor ",
+          "desc": "Robotic Contest is a robotic competition held by Himpunan Mahasiswa Fisika, Institut Pertanian Bogor"
+        }
+      ],
       "skills":[
         {
           "name":"Web Security",
