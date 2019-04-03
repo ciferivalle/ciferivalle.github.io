@@ -9,8 +9,8 @@ class Resume extends Component {
         return (
             <div key={education.school}>
                <h3 className="avenir">{education.school}</h3>
-               <p className="futura">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
-               <p>{education.description}</p>
+               <p className="futura lime">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
+               <p className="dark-white">{education.description}</p>
             </div>
         )
       })
@@ -18,8 +18,8 @@ class Resume extends Component {
         return (
             <div key={work.company}>
                <h3 className="avenir">{work.company}</h3>
-               <p className="futura">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
-               <p>{work.description}</p>
+               <p className="futura lime">{work.title}<span>&bull;</span> <em className="date">{work.years}</em></p>
+               <p className="dark-white">{work.description}</p>
             </div>
          )
       })
@@ -30,11 +30,11 @@ class Resume extends Component {
     }
 
     return (
-      <section id="resume" className="my-5">
+      <section id="resume" className="py-5 bg-grey white">
       <div class="container text-left">
          <div className="row">
             <div className="col-md-3">
-               <h2><span className="futura u">EDUCATION</span></h2>
+               <h2><span className="futura u boom">EDUCATION</span></h2>
             </div>
             <div className="col-md-9">
                <div className="row">
@@ -45,12 +45,12 @@ class Resume extends Component {
             </div>
          </div>
 
-         <hr className="style-eight"/>
+         <hr className="style11"/>
 
          <div className="row work my-5">
 
             <div className="col-md-3">
-               <h2><span className="futura u my-5">WORK</span></h2>
+               <h2><span className="futura u my-5 boom">WORK</span></h2>
             </div>
 
             <div className="col-md-9">
@@ -58,14 +58,14 @@ class Resume extends Component {
             </div>
          </div>
 
-         <hr className="style-eight"/>
+         <hr className="style11"/>
 
          <div className="row skill my-5">
             <div className="col-md-3">
-               <h2 className="futura u"><span>SKILLS</span></h2>
+               <h2 className="futura u boom"><span>SKILLS</span></h2>
             </div>
 
-            <div className="col-md-9">
+            <div className="col-md-9 dark-white">
                <p>{skillmessage}</p> 
                <div className="bars">
                   <ul className="skills">

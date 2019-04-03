@@ -6,6 +6,10 @@
     color: #ffffff;
 }
 
+.lime {
+    color: #74FAA3;
+}
+
 .f-light-grey {
     color: rgb(157, 157, 157);
 }
@@ -79,6 +83,13 @@
     text-decoration: none;
 }
 
+.boom:hover {
+    /* color: transparent; */
+    font-weight: bold;
+    text-shadow: -15px 10px 0px #E35A7E, 15px -10px 0px #EF817C;
+    text-decoration: none;
+}
+
 ul {
     list-style: none;
 }
@@ -118,4 +129,17 @@ hr.style-eight:after {
     font-size: 1.5em;
     padding: 0 0.25em;
     background: white;
+}
+
+hr.style11 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-11.png) repeat-x 0 0;
+    border: 0;
+}
+
+
+hr.style12 {
+	height: 6px;
+	background: url(http://ibrahimjabbari.com/english/images/hr-12.png) repeat-x 0 0;
+    border: 0;
 }

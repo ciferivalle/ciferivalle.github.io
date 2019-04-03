@@ -39,9 +39,9 @@
       "education":[
         {
           "school":"University of Indonesia",
-          "degree":"Bachelor Degree",
+          "degree":"Bachelor Degree of Computer Science",
           "graduated":"July, 2021",
-          "description":"Majoring Computer Science, (will) take Computer Infrastructure path"
+          "description":"Relavant Courses: Data Structures and Algorithm, Introduction to Computer Organization, Linear Algebra, Statistics & Probability, Web Programming & Design, Advanced Programming, Competitive Programming, Database, Operating Systems, Theory of Language & Automata;"
         }
       ],
       "work":[
@@ -73,9 +73,13 @@
           "name":"ReactJs",
           "level":"50%"
         },
+{
+          "name":"SQL",
+          "level":"70%"
+        },
         {
-          "name":"MongoDB",
-          "level":"60%"
+          "name":"NoSQL",
+          "level":"50%"
         },
         {
           "name":"Docker",

@@ -22,7 +22,7 @@ class Portfolio extends Component {
     }
 
     return (
-      <section id="portfolio" className="bg-grey white">
+      <section id="portfolio" className="">
 
       <div className="row">
 

@@ -61,11 +61,12 @@ class About extends Component {
                         {/* <div className="col-md-12">
                            <img onMouseOver={this.handleMouseOver} onMouseOut={this.handleMouseOut} src={this.state.imgSrc} alt="mypic" className="profile-img img-responsive pas moshed"/>
                         </div> */}
-                        <div className="col-md-12 f-light-grey">
-                           <h1 className="avenir white">
+                        <div className="col-lg-6 col-md-12 white text-left">
+                           <h1 className="avenir">
                               Hi! I'm Nata!
                               Information Security Enthusiast and Software Engineer!
                            </h1>
+                           <p className="futura gray">Click me to see more!</p>
                            {/* <p className="helvetica dark-white">{bio}</p> */}
                         </div>
                      </div>
