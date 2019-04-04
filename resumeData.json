@@ -113,7 +113,7 @@
           "title":"SMAN 3 Jakarta",
           "category":"Creating CRUD for SMAN3JKT's websites, including article, event, and gallery system",
           "stacks": "PHP & Laravel, MySQL",
-          "stackLogo": ["foundation", "laravel", "mysql"],
+          "stackLogo": ["php", "foundation", "laravel", "mysql"],
           "image":"mockup/sman3jkt.png",
           "url":"https://www.sman3jkt.sch.id"
         },
@@ -121,7 +121,7 @@
           "title":"HMIK Fisip Universitas Indonesia",
           "category":"Creating CRUD for HMIK FISIP websites, including article, pojok literatur, and gallery system",
           "stacks": "PHP&Laravel, MySQL",
-          "stackLogo": ["foundation", "laravel", "mysql"],
+          "stackLogo": ["php", "foundation", "laravel", "mysql"],
           "image":"mockup/hmik.png",
           "url":"http://www.hmikfisip.com"
         },
@@ -129,7 +129,7 @@
           "title":"Vendoor",
           "category":"Build Back-End system, including migration, dabatase, filtering, searching, and CRUD",
           "stacks": "PHP&Laravel, MySQL",
-          "stackLogo": ["foundation", "laravel", "mysql"],
+          "stackLogo": ["php", "foundation", "laravel", "mysql"],
           "image":"mockup/vendoor.png",
           "url":"http://www.hmikfisip.com"
         },
