@@ -13,7 +13,7 @@ class Footer extends Component {
                     reach me on:
                 </p>
                 <h2 className="futura white">
-                    <a className="link link2" href="http://github.com/ciferivalle">GitHub</a>, <a className="link" href="http://gitlab.com/ciferivalle">GitLab</a>, <a className="link" href="http://linkedin.com/in/ciferivalle">LinkedIn</a>
+                    <a className="link link2" href="http://github.com/ciferivalle">GitHub</a>, <a className="link" href="http://gitlab.com/ciferivalle">GitLab</a>, <a className="link" href="http://linkedin.com/in/nataprawiraf">LinkedIn</a>
                 </h2>
             </section>
                
