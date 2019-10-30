@@ -1,5 +1,38 @@
+@font-face {
+    font-family: 'Helvetica Neue Medium';
+    src: url("/fonts/HelveticaNeue-Medium.otf");
+  }
+
+@font-face {
+font-family: 'Helvetica Neue Medium Cond';
+src: url("/fonts/HelveticaNeue-MediumCond.otf");
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Medium Bold';
+    src: url("/fonts/HelveticaNeueBold.ttf");
+}
+  
+
 body {
     overflow-x: hidden;
+}
+
+
+.hel {
+    font-family: 'Helvetica Neue Medium';
+}
+
+.link-g {
+    color: gray;
+}
+
+.hel-bold {
+    font-family: 'Helvetica Neue Medium Bold';
+}
+
+.hel-cond {
+    font-family: 'Helvetica Neue Medium Cond';
 }
 
 .bg-grey {

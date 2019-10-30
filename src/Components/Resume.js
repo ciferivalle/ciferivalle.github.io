@@ -48,7 +48,7 @@ class Resume extends Component {
       <div class="container text-left">
          <div className="row">
             <div className="col-md-3">
-               <h2><span className="futura u boom">EDUCATION</span></h2>
+               <h2><span className="roboto boom">Education</span></h2>
             </div>
             <div className="col-md-9">
                <div className="row">
@@ -64,7 +64,7 @@ class Resume extends Component {
          <div className="row work my-5">
 
             <div className="col-md-3">
-               <h2><span className="futura u my-5 boom">WORK</span></h2>
+               <h2><span className="futura my-5 boom">Work Exp</span></h2>
             </div>
 
             <div className="col-md-9">
@@ -77,7 +77,7 @@ class Resume extends Component {
          <div className="row work my-5">
 
             <div className="col-md-3">
-               <h2><span className="futura u my-5 boom">AWARD</span></h2>
+               <h2><span className="futura my-5 boom">Award</span></h2>
             </div>
 
             <div className="col-md-9">
@@ -89,7 +89,7 @@ class Resume extends Component {
 
          <div className="row skill my-5">
             <div className="col-md-3">
-               <h2 className="futura u boom"><span>SKILLS</span></h2>
+               <h2 className="futura boom"><span>Skill</span></h2>
             </div>
 
             <div className="col-md-9 dark-white">
