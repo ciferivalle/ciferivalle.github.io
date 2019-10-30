@@ -21,8 +21,8 @@ module.exports = {
 	  deploy : {
 		      production : {},
 		      staging: {
-			            user: 'your-user',
-			            host: 'your-server',
+			            user: 'ubuntu',
+			            host: '35.173.184.139',
 			            ref: 'origin/master',
 			            repo: 'git@github.com:nach0noir/resume.git',
 			            path: '/var/www/web/client',
