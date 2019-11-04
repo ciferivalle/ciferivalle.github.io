@@ -44,9 +44,8 @@ class Header extends Component {
                     </ul>
 
                     <form class="form-inline my-2 my-lg-0">
-                        <span class="ml-3 hel link-g" href="#">Me</span>
-                        <span class="ml-3 hel link-g" href="#">Article</span>
-                        <span class="ml-3 hel link-g" href="#">Contact</span>
+                        <a class="ml-3 hel link-g" href="/">Me</a>
+                        <a class="ml-3 hel link-g" href="http://byteofscript.wordpress.com/">Blog</a>
                     </form>
                   </div>
                 </div>

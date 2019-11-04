@@ -46,6 +46,22 @@
       ],
       "work":[
         {
+          "company":"Pusat Ilmu Komputer - Pusilkom",
+          "title":"Security Engineer and DevOps Engineer",
+          "years":"September 2019 - Now",
+          "stacks":"ZAP, Ansible",
+          "stackLogo": ["zap", "ansible"],
+          "description":"Do a penetration testing, ensure security, create automation script."
+        },
+        {
+          "company":"Bukalapak",
+          "title":"Software Engineer",
+          "years":"July 2018 - Jan 2019",
+          "stacks":"Ruby, Go, Apache Kafka",
+          "stackLogo": ["ruby", "go", "kafka"],
+          "description":"Create a Borrow and Lend Transaction API, using Django REST Framework. Setting deployment using Docker, and Dokku on VPS. Managing API's image. Maintain the codes and deploy them to VPS using Dokku and Docker."
+        },
+        {
           "company":"AdaTeman",
           "title":"Head of Backend Engineer",
           "years":"July 2018 - Jan 2019",
@@ -99,6 +115,10 @@
         },
         {
           "name":"Docker",
+          "level":"60%"
+        },
+        {
+          "name":"Reverse Engineering",
           "level":"60%"
         },
         {
