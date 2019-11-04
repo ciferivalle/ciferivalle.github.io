@@ -59,7 +59,7 @@
           "years":"July 2018 - Jan 2019",
           "stacks":"Ruby, Go, Apache Kafka",
           "stackLogo": ["ruby", "go", "kafka"],
-          "description":"Create a Borrow and Lend Transaction API, using Django REST Framework. Setting deployment using Docker, and Dokku on VPS. Managing API's image. Maintain the codes and deploy them to VPS using Dokku and Docker."
+          "description":"Develop Internal API for Growth-Fraud Squad using Ruby, Go, MongoDB, MySQL, and Apache Kafka."
         },
         {
           "company":"AdaTeman",
