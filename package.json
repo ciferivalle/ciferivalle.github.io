@@ -13,12 +13,12 @@
     "react-scripts": "2.1.8"
   },
   "scripts": {
-	  "start": "PORT=3001 react-scripts start",
-	          "start:production": "npm run build && npm run start:prod",
-		      "start:prod": "NODE_ENV=production node server",
-		          "build": "react-scripts build",
-			      "test": "react-scripts test --env=jsdom",
-			          "eject": "react-scripts eject"
+    "start": "PORT=3001 react-scripts start",
+    "start:production": "npm run build && npm run start:prod",
+    "start:prod": "NODE_ENV=production node server",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -28,5 +28,9 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "1.19.1"
+  }
 }
